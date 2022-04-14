@@ -1,15 +1,6 @@
 # Hub de enlaces
 
-El "Hub de enlaces" es una página web con accesos directos a diversos sitios en internet, para poder redirigir a las personas que visiten tu perfil a donde quieras.
-
-## Changelog
-
-![Avance](https://img.shields.io/badge/Avance-5%25-brightgreen?style=flat-square)
-
-**v0.1-beta**
-Fase básica de prueba
-
-___
+El "Hub de enlaces" es una página web enfocada en la efectividad de información con accesos directos a diversos sitios en internet, para poder redirigir a tu audiencia cualquier parte en internet.
 
 ## License
 
@@ -24,3 +15,34 @@ ___
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCwxL7Wg7yyiT-vOmkILVPBQ?color=ff0000&label=Youtube&logo=Youtube&logoColor=fff&style=flat-square)](https://www.youtube.com/channel/UCwxL7Wg7yyiT-vOmkILVPBQ)
 [![Twitch Status](https://img.shields.io/twitch/status/JAfricanot?color=9146ff&label=Twitch&logo=Twitch&logoColor=fff&style=flat-square)](https://www.twitch.tv/JAfricanot)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-available-0e76a8?logo=LinkedIn&logoColor=fff&style=flat-square)](https://www.linkedin.com/in/jafricanot/)
+
+___
+
+## Roadmap
+
+> **v0.1-alpha**
+> ![Avance](https://img.shields.io/badge/Avance-5%25-brightgreen?style=flat-square)
+> Simplificación de la configuración (Variables).
+>
+> **v1.0**
+> Botones principales para enlaces personalizados.
+> 3 estilos de botones.
+> Fila de Botones secundarios.
+> Integración para Videos de YouTube.
+> Logos de redes sociales fáciles de modificar (Nativo).
+>
+> **v2.0**
+> "Wizard Set Up" Configurador automático intuitivo para usuario sin conocimiento técnico.
+> Interfaz ejecutable que permita mundificar los principales parámetros del Hub.
+>
+> **v3.0**
+> Conexión de APIs. Consulta de información por APIs externas útiles.
+>
+> - Google Fonts.
+> - Social Media APIs.
+
+## Changelog
+
+> **v0.1-beta**
+> Mínimo viable del proyecto
+> Logos SVG de redes sociales.
