@@ -1,0 +1,109 @@
+body{
+    margin: 100px 0;
+    background-color: #212121;
+    background-image: url("assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: auto;
+    width: auto;
+    background-blend-mode: overlay;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 15px;
+}
+
+a{
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #aaa;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.headerSection{
+    margin: 50px 0 ;
+}
+
+.profilePic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.0);
+    background-image: url("assets/images/profilePic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+}
+
+.profilePic-border{
+    width: 105px;
+    height: 105px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid #666;
+    margin: auto;
+}
+
+.verified{
+    color: rgb(0, 150, 255);
+    fill: #0096ff;
+    position: relative;
+    top: -25px;
+    left: 35px;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.subtitle{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    color: #aaa;
+}
+
+svg{
+    display: block;
+    margin: auto;
+}
+
+.social{
+    color: #fff;
+    fill: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 2.5px;
+    display: inline-grid;
+}
+
+@media only screen and (max-width: 480px){
+    .social-sec{
+        width: 200px;
+        margin: auto;
+    }
+}
+
+footer{
+    margin: 50px 0 ;
+    font-weight:200;
+    font-size: 0.75em;
+}
