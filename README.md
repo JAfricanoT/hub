@@ -21,21 +21,31 @@ ___
 ## Roadmap
 
 > **v0.1-alpha**
+>
 > ![Avance](https://img.shields.io/badge/Avance-5%25-brightgreen?style=flat-square)
+>
 > Simplificación de la configuración (Variables).
 >
 > **v1.0**
+>
 > Botones principales para enlaces personalizados.
+>
 > 3 estilos de botones.
+>
 > Fila de Botones secundarios.
+>
 > Integración para Videos de YouTube.
+>
 > Logos de redes sociales fáciles de modificar (Nativo).
 >
 > **v2.0**
+>
 > "Wizard Set Up" Configurador automático intuitivo para usuario sin conocimiento técnico.
+>
 > Interfaz ejecutable que permita mundificar los principales parámetros del Hub.
 >
 > **v3.0**
+>
 > Conexión de APIs. Consulta de información por APIs externas útiles.
 >
 > - Google Fonts.
@@ -44,5 +54,7 @@ ___
 ## Changelog
 
 > **v0.1-beta**
+>
 > Mínimo viable del proyecto
+>
 > Logos SVG de redes sociales.
