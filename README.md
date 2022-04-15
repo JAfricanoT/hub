@@ -50,11 +50,9 @@ ___
 >
 > - Google Fonts.
 > - Social Media APIs.
+> - GitHub
 
 ## Changelog
 
-> **v0.1-beta**
->
-> Mínimo viable del proyecto
->
-> Logos SVG de redes sociales.
+Conoce todos los cambios durante cada versión en
+[releases.](https://github.com/JAfricanoT/hub/releases)
