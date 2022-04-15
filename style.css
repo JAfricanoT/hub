@@ -1,31 +1,33 @@
+@import "user-config.css";
+
 body{
     margin: 100px 0;
-    background-color: #212121;
-    background-image: url("assets/images/background.png");
+    background-color:  var(--sm-background-color);
+    background-image:  var(--background-image-url);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-blend-mode: multiply;
     min-height: auto;
     width: auto;
-    background-blend-mode: overlay;
     align-items: center;
     text-align: center;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    color:  var(--font-color);
+    font-family: var(--font-family);
     padding: 0 15px;
 }
 
 a{
-    color: #ccc;
+    color: var(--link-color);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: var(--link-weight);
 }
 
 a:hover{
-    color: #aaa;
+    color: var(--link-color-hover);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: var(--link-weight-hover);
 }
 
 .headerSection{
@@ -36,13 +38,12 @@ a:hover{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.0);
-    background-image: url("assets/images/profilePic.png");
+    background-image: var(--h-profile-pic-url);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
-    margin: auto;
+    margin: 2.5px;
 }
 
 .profilePic-border{
@@ -55,28 +56,29 @@ a:hover{
 }
 
 .verified{
-    color: rgb(0, 150, 255);
-    fill: #0096ff;
+    color: var(--h-verified-color);
+    fill: var(--h-verified-color);
     position: relative;
     top: -25px;
     left: 35px;
 }
 
 h1{
-    font-size: 2em;
-    font-weight: 700;
+    color: var(--h-title-font-color);
+    font-size: var(--h-title-font-size);
+    font-weight: var(--h-title-font-weight);
     margin: 0;
     margin-top: 10px;
     padding: 0;
 }
 
 .subtitle{
-    font-size: 1em;
-    font-weight: 400;
+    font-size: var(--h-subtitle-font-size);
+    font-weight: var(--h-subtitle-font-weight);
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
-    color: #aaa;
+    color: var(--h-subtitle-font-color);
 }
 
 svg{
@@ -85,14 +87,18 @@ svg{
 }
 
 .social{
-    color: #fff;
-    fill: #fff;
+    color: var(--sm-logos-color);
+    fill: var(--sm-logos-color);
     width: 40px;
     height: 40px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: var(--sm-background-color);
     margin: 2.5px;
     display: inline-grid;
+}
+
+.social:hover{
+    background-color: var(--sm-background-color-hover);
 }
 
 @media only screen and (max-width: 480px){
@@ -106,4 +112,14 @@ footer{
     margin: 50px 0 ;
     font-weight:200;
     font-size: 0.75em;
+}
+
+footer a{
+    color: var(--f-link-color);
+    font-weight: var(--f-link-weight);
+}
+
+footer a:hover{
+    color: var(--f-link-color-hover);
+    font-weight: var(--f-link-weight-hover);
 }
