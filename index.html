@@ -12,33 +12,31 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
-        rel="stylesheet">
-
 </head>
 
 <body>
-    <div class="headerSection">
-        <div class="profilePic-border">
-            <div class="profilePic"></div>
+    <header>
+        <div class="headerSection">
+            <div class="profilePic-border">
+                <div class="profilePic"></div>
+            </div>
+            <div class="verified">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                </svg>
+            </div>
+            <div>
+                <!--- Nombre -->
+                <h1>Africano</h1>
+                <!--- Usuario -->
+                <h2 class="subtitle">@JAfricanoT</h2>
+            </div>
         </div>
-        <div class="verified">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-patch-check-fill" viewBox="0 0 16 16">
-            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
-        </svg>
-    </div>
-        <div>
-            <!--- Nombre -->
-            <h1>Africano</h1>
-            <!--- Usuario -->
-            <h2 class="subtitle">@JAfricanoT</h2>
-        </div>
-    </div>
-
+    </header>
     <!--- Redes Sociales -->
-    <div class="social-sec">
+    <nav class="social-sec">
         <!--- GitHub -->
         <a href="#">
             <div class="social">
@@ -103,12 +101,32 @@
                 </svg>
             </div>
         </a>
-
-    </div>
+        <!--- Another -->
+        <a href="#">
+            <div class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                </svg>
+            </div>
+        </a>
+    </nav>
+    <main>
+        <a href="#"><div class="button">Hub de enlaces</div></a>
+        <a href="#"><div class="button">Documentación de todos los lenguajes</div></a>
+        <a href="#"><div class="button">Sorpresa</div></a>
+        <!--- YouTube Video -->
+        <iframe class="full-video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    
     <footer>
-        <p>© 2022 | Desarrollado por <a href="https://github.com/JAfricanoT">@JAfricanoT</a></p>
-        <p>Consigue tu propio <a href="https://github.com/JAfricanoT/JAfricanoT">Hub de Enlaces.</a></p>
+        <p>© 2022 JAfricanoT | por <a href="https://github.com/JAfricanoT">@JAfricanoT</a></p>
+        <a href="https://github.com/JAfricanoT/hub">
+            <div class="hub">
+                <p>Consigue tu propio Hub de Enlaces.</p>
+            </div>
+        </a>
     </footer>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>

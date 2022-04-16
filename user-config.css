@@ -1,7 +1,8 @@
 :root {
     /* GENERAL */
     --main-color: rgb(33, 33, 33);
-    --accent-color: rgb(17, 230, 88);
+    --accent-color: rgb(33, 70, 45);
+    --accent-color-hover: rgb(24, 49, 32);
     --background-image-url:  url("assets/images/background.png");
     --background-color:  rgb(0, 0, 0);
     --font-family: 'Montserrat', sans-serif;
@@ -24,8 +25,16 @@
 
     /* SOCIAL MEDIA*/
     --sm-logos-color: rgb(255, 255, 255);
-    --sm-background-color: rgba(0, 0, 0, 0.75);
-    --sm-background-color-hover: rgba(0, 0, 0, 1);
+    --sm-background-color: rgba(175, 175, 175, 0.25);
+    --sm-background-color-hover: rgba(124, 124, 124, 0.25);
+
+    /* MAIN */
+    --m-button-font-color: rgb(255, 255, 255);
+    --m-button-font-size: 0.9em;
+    --m-button-font-weight: 700;
+    --m-button-font-format: uppercase;
+    --m-button-corners: 5px;
+    --m-button-font-color-hover: rgb(255, 255, 255);
 
     /* FOOTER */
     --f-font-color: rgb(255, 255, 255);
