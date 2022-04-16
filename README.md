@@ -26,6 +26,12 @@ ___
 >
 > Simplificación de la configuración (Variables).
 >
+> Agregado elementos básicos del hub (Botones, enlaces y otros...)
+>
+> Integración para Videos de YouTube.
+>
+> Adaptación responsive design.
+>
 > **v1.0**
 >
 > Botones principales para enlaces personalizados.
@@ -33,8 +39,6 @@ ___
 > 3 estilos de botones.
 >
 > Fila de Botones secundarios.
->
-> Integración para Videos de YouTube.
 >
 > Logos de redes sociales fáciles de modificar (Nativo).
 >
@@ -51,6 +55,8 @@ ___
 > - Google Fonts.
 > - Social Media APIs.
 > - GitHub
+>
+> Diferentes templates con distintas diagramaciones.
 
 ## Changelog
 

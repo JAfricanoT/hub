@@ -1,0 +1,45 @@
+:root {
+    /* GENERAL */
+    --main-color: rgb(33, 33, 33);
+    --accent-color: rgb(33, 70, 45);
+    --accent-color-hover: rgb(24, 49, 32);
+    --background-image-url:  url("assets/images/background.png");
+    --background-color:  rgb(0, 0, 0);
+    --font-family: 'Montserrat', sans-serif;
+    --font-color: rgb(255, 255, 255);
+    --link-color: rgb(204, 204, 204);
+    --link-weight: 400;
+    --link-color-hover: rgb(170, 170, 170);
+    --link-weight-hover: 400;
+
+    /* HEADER */
+    --h-profile-pic-url: url("assets/images/profilePic.png");
+    --h-profile-pic-border: rgb(102, 102, 102);
+    --h-title-font-color: rgb(255, 255, 255);
+    --h-title-font-size: 2em;
+    --h-title-font-weight: 700;
+    --h-subtitle-font-color: rgb(170, 170, 170);
+    --h-subtitle-font-size: 1em;
+    --h-subtitle-font-weight: 400;
+    --h-verified-color: rgb(0, 150, 255);
+
+    /* SOCIAL MEDIA*/
+    --sm-logos-color: rgb(255, 255, 255);
+    --sm-background-color: rgba(175, 175, 175, 0.25);
+    --sm-background-color-hover: rgba(124, 124, 124, 0.25);
+
+    /* MAIN */
+    --m-button-font-color: rgb(255, 255, 255);
+    --m-button-font-size: 0.9em;
+    --m-button-font-weight: 700;
+    --m-button-font-format: uppercase;
+    --m-button-corners: 5px;
+    --m-button-font-color-hover: rgb(255, 255, 255);
+
+    /* FOOTER */
+    --f-font-color: rgb(255, 255, 255);
+    --f-link-color: rgb(204, 204, 204);
+    --f-link-weight: 700;
+    --f-link-color-hover: rgb(170, 170, 170);
+    --f-link-weight-hover: 700;
+  }
