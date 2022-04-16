@@ -19,10 +19,15 @@ El "Hub de enlaces" es una página web enfocada en la efectividad de informació
 ___
 
 ## Roadmap
-
 > **v0.1-alpha**
 >
-> ![Avance](https://img.shields.io/badge/Avance-5%25-brightgreen?style=flat-square)
+> Creación de la estructura básica del hub.
+>
+> Creación Mínimo viable del proyecto.
+>
+> Creación del archivo `readme.md` con las características básicas.
+>
+> **v0.1-beta**
 >
 > Simplificación de la configuración (Variables).
 >
@@ -33,6 +38,8 @@ ___
 > Adaptación responsive design.
 >
 > **v1.0**
+>
+> ![Avance](https://img.shields.io/badge/Avance-5%25-brightgreen?style=flat-square)
 >
 > Botones principales para enlaces personalizados.
 >
